@@ -255,12 +255,6 @@ body {
 }
 
 @media screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
   .page-logo {
     margin-right: 76px;
   }
@@ -282,6 +276,10 @@ body {
 }
 
 /* =========== HERO STYLES =========== */
+
+@media screen and (max-width: 767px) {
+}
+
 @media screen and (min-width: 768px) {
 }
 
