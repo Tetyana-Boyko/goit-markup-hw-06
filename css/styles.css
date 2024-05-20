@@ -398,3 +398,100 @@ body {
       url("../images/people-office-1@2x.jpg");
   }
 }
+/* =========== BENEFITS STYLES =========== */
+.section-paddings {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.benefits-list-link-container {
+  display: none;
+}
+
+.benefits-list-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.benefits-list-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 767px) {
+  .benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .benefits-list-item {
+    width: calc((100% - 216px) / 4);
+  }
+}
+
+.benefits-list-title {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits-list {
+    display: flex;
+    justify-content: left;
+    gap: 24px;
+  }
+  .benefits-list-item {
+    width: calc((100% - 120px) / 4);
+  }
+
+  .benefits-list-title {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section-paddings {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .benefits-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .benefits-list-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .benefits-list-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4fd;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+    fill: #2e2f42;
+  }
+
+  .benefits-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .benefits-list-text {
+    font-weight: 500;
+  }
+}
+
+/* =========== OUR TEAM STYLES =========== */
