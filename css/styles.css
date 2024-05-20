@@ -442,7 +442,8 @@ body {
 @media screen and (min-width: 768px) {
   .benefits-list {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 24px;
   }
   .benefits-list-item {
@@ -495,3 +496,6 @@ body {
 }
 
 /* =========== OUR TEAM STYLES =========== */
+.our-team {
+  background-color: #f4f4fd;
+}
