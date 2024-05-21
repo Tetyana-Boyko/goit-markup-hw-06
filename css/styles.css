@@ -856,6 +856,7 @@ body {
   .container-display-footer {
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     gap: 72px;
   }
 
@@ -877,7 +878,6 @@ body {
   }
 
   .container-display-footer {
-    flex-direction: row;
     justify-content: left;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -886,6 +886,12 @@ body {
 
   .page-logo-text-container-footer {
     margin-right: 24px;
+  }
+
+  .subscribe-form-footer {
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
   }
 }
 
