@@ -486,6 +486,7 @@ body {
 
   .benefits-list-item {
     width: calc((100% - 72px) / 4);
+    height: 224px;
   }
 
   .benefits-list-link-container {
